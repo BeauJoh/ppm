@@ -1,2 +1,10 @@
 .DS_Store
 .kdbgrc.myBuild
+DerivedData/
+ppm.xcodeproj/xcuserdata/beau.xcuserdatad/xcschemes/xcschememanagement.plist
+
+ppm.xcodeproj/xcuserdata/beau.xcuserdatad/xcschemes/ppm.xcscheme
+
+ppm.xcodeproj/project.xcworkspace/xcuserdata/beau.xcuserdatad/UserInterfaceState.xcuserstate
+
+ppm.xcodeproj/project.xcworkspace/contents.xcworkspacedata
