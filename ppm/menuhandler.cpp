@@ -567,7 +567,7 @@ void menuHandler::retrieveAllRecords()	{
 			cout << buf << endl;
 			cout << endl;
 			for ( int i = 0; i < outString.size(); i++)	{
-				printf("%.2x ", outString.at(i), 2);
+				printf("%.2x ", outString.at(i));
 				i ++;
 			}
 			cout << endl;

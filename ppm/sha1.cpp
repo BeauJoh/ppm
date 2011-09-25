@@ -142,7 +142,7 @@ char * sha1_string(const char *input)
 	if (input == NULL)
 		return (NULL);
 	sha1_initialize(&sha1);
-	len = strlen(input);
+	len = (int)strlen(input);
 	flag = 0;
 	for (i = 0; i <= len; i += 64)
     {

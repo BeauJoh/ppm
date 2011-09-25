@@ -26,7 +26,7 @@ void pc1Handler::createKey(){
 // Allocates and resizes the cstring size of the file 
 // required for it to be encrypted
 void pc1Handler::initializeEncSize(char * fileData)	{
-	slen = strlen(fileData);
+	slen = (int)strlen(fileData);
 	cipher.plainlen=slen;
 	cipher.ascipherlen=2*cipher.plainlen;
 }
@@ -34,7 +34,7 @@ void pc1Handler::initializeEncSize(char * fileData)	{
 // Allocates and resizes the cstring size of the file
 // required for it to be decrypted. Creates proper boundaries
 void pc1Handler::initializeDecSize(char * fileData)	{
-	slen = strlen(fileData);
+	slen = (int)strlen(fileData);
 	cipher.plainlen= slen / 2;
 	cipher.ascipherlen= slen;
 }
